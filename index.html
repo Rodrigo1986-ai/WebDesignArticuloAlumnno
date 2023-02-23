@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articulo</title>
+    <link rel="preload" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css" as="estilos">
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+</head>
+<body>
+    <header>  
+        <h1 class="titulo">Responsive Web Design (RWD)</h1>
+    </header>
+    <div  id="container">
+    <main class="contenedor sombra">
+    <article class="article">
+    <section class="partes">
+        <h2>Abstract</h2>
+        <p>
+        Actualmente, además de las computadoras de escritorio, hay un número excesivo de dispositivos portátiles dispositivos como móviles 
+        y tabletas que se utilizan para acceder a Internet. De este modo, los sitios web deben ser receptivos para que se puedan ver independientemente 
+        del dispositivo de visualización.<br>
+        <b>Objetivo:</b> Presentar una visión integral de la Experiencia de Usuario enfocada a la navegación multiplataforma tomando el Responsive
+        Web Design como guía de referencia del diseño web en la actualidad.<br>
+        <b>Resultados:</b> Los entornos de navegación actuales deben poder ser aprovechados desde cualquier dispositivo. No adaptarse a esta realidad
+        condena a los sitios web a brindar una experiencia cada vez menos satisfactoria. La tendencia actual es unificar los canales de información en una
+        única web, una única URL, un solo espacio virtual que mantenga las mismas funcionalidades y características que definen cada sitio web,
+        adaptándose progresivamente a los cientos de modelos de dispositivos móviles que actualmente están en el mercado.
+    </p>
+        <h2>Introducción</h2>
+        <p>
+        Desde su surgimiento hasta nuestros días la telefonía móvil ha ido evolucionando vertiginosamente. Los primeros teléfonos móviles 
+        aparatosos y pesados solo podían enviar y recibir llamadas y mensajes de texto, no siendo así en la actualidad donde además de tener 
+        estas funciones están preparados para brindar otros servicios.
+        La posibilidad de navegar por Internet, a través de los teléfonos inteligentes o Smartphones revolucionó el diseño Web a partir del 
+        año 2007. Con anterioridad los sitios Web solo eran visibles en monitores, que, aunque sus tamaños variaban, la diferencia no influía 
+        significativamente en el diseño; no siendo así con la introducción de los teléfonos inteligentes y tableta. Ante esta problemática 
+        surge un método que da solución a los diferentes tamaños de pantalla. De esta manera, ya en el año 2010. Ethan Marcotte definiría por 
+        primera vez el término Responsive Web Design.<br>
+        El Responsive Web Design (RWD) es un método para diseñar sitios Web de apariencia flexible. Este no se basa únicamente en anchos de 
+        pantallas fijos sino que es capaz de detectar el ancho de pantalla y ajustar el diseño para proveer una visualización adecuada en 
+        cada dispositivo.
+        El diseño responsive puede manejar la visualización Web tanto de escritorio como de dispositivos móviles, a través de sus tres ingredientes 
+        técnicos: las rejillas de fluidos, las imágenes flexibles y las consultas de medios de comunicación. <br>
+        El World Wide Web Consortium (W3C) se 
+        muestra a favor del principio "OneWeb", lo que significa poner a disposición de los usuarios de terminales móviles la misma información y 
+        servicios que las computadoras de escritorio, en la medida de lo posible.  Esto no significa que la información y su representación sean 
+        exactamente las mismas para todos los dispositivos, ya que las cualidades de éstos y el contexto en que son empleados, son diferentes, y por 
+        lo tanto habrá servicios e información más apropiados para unos contextos que para otros.  Con una sola versión en HTML y CSS se cubren todas 
+        las resoluciones de pantalla desde televisores, computadoras de escritorio hasta tabletas y teléfonos inteligentes. El RWD consiste en una 
+        combinación de diseño, plantillas flexibles y un uso inteligente de reglas de CSS.<br>
+        Otros investigadores además de Ethan Marcotte han dado su propia definición de RWD. Knight refiere que el RWD es el enfoque que sugiere que 
+        el diseño y el desarrollo deben responder al comportamiento y al entorno del usuario, basándose en el tamaño de la pantalla, la plataforma y 
+        la orientación.  Snell expone que el RWD provee una experiencia positiva e intuitiva independientemente del dispositivo, sin requerir 
+        sub-dominios separados para los dispositivos móviles. Para todo esto se hace uso de las reglas de Cascading Style Sheets (CSS) Media Queries, 
+        lo cual permite que los elementos se adapten al ancho y orientación de los dispositivos.
+
+        </p>
+    </section>
+    </article>
+
+    <article class="article">
+        <h2>Desarrollo </h2>
+        <p>
+        El RWD se hace posible gracias a la introducción de las Media Queries en las propiedades de los estilos CSS en su versión número 3. Las 
+        Media Queries son consultas de las características del medio donde se está visualizando una Web y sirven para definir estilos condicionales, 
+        que se aplican la resolución y el tamaño de pantalla.
+        La versión CSS 3 incluye consultas más específicas basadas en las características de los dispositivos como el ancho, alto y capacidad de 
+        colores. Las Media Queries no afectan al HTML solo a los estilos aplicados a las páginas y utiliza las CSS. Los navegadores empezaron a 
+        darle soporte en el 2009, permitiendo que se pudieran añadir a los sitios Web diferentes plantillas (layouts) para disímiles tamaños de 
+        pantallas sin tener que crear nuevos sitios Web.<br>
+        El uso de Media Queries soluciona cambiar cualquier aspecto relacionado con el estilo de 
+        un sitio Web, no solamente el número de columnas sino también se pueden mover objetos, cambiar la fuente del texto, mostrar u ocultar 
+        contenido, ajustar márgenes y cualquier otro estilo que se pueda aplicar con CSS.   
+        El Responsive Web Design trabaja con porcentajes para establecer el ancho de cada elemento del layout, lo que facilita que los contenedores 
+        sean más adaptables, fluidos y no dependan de un ancho fijo, además se ahorra el despliegue de barras deslizadoras.
+        Con el uso de RWD se reducen los costos de creación y mantenimiento del sitio, pues el diseño de las pantallas es similar entre dispositivos
+        de distintos tamaños. Desde el punto de vista de la optimización de motores de búsqueda solo aparece una URL en los resultados, con lo cual 
+        se ahorran redirecciones y fallos que se derivan de éstas. Su aplicación evita errores al acceder al sitio desde los llamados social links; 
+        es decir, desde enlaces que los usuarios comparten en redes sociales, tales como: Facebook o Twitter, en las que pueden existir errores, 
+        dependiendo de qué enlace se copió y desde qué dispositivo se accedió.<br>
+        Google recomienda que se use el RWD para crear páginas Web, debido a que la utilización de esta técnica mejora el posicionamiento y 
+        optimiza el sitio en los motores de búsqueda. El Diseño 100% responsive se encuentra entre los factores que Google considera que influyen 
+        en el posicionamiento de los sitios web. A través de su uso Googlebot puede obtener el contenido de una forma más eficiente, actualizando 
+        rápidamente los cambios que se realicen en el índice de Google. 
+    </p>
+    <img src="rec/web.gif">
+    </article>
+    <article class="article">
+        <h3>¿Cuál es la importancia del Responsive Web Design?</h3>
+        <p>
+        En primer lugar, el diseño web responsive reduce los tiempos de desarrollo, permite la viralidad de contenidos (estos son compartidos en los
+        distintos dispositivos) y evita también su duplicación.<br>
+        A continuación, el porqué del diseño web responsive y su importancia en la actualidad:
+        <ul>
+        <li>
+            <a><b>Nuevas formas de consumo de Internet:</b> Como ya se ha adelantado, la tendencia actual es la multiconexión; realizando especial hincapié 
+            en el uso del smartphone. Por consiguiente, contar con una página web responsive se convierte en una auténtica necesidad.</a>
+        </li>
+        <li>
+            <a><b>Mejor experiencia de usuario:</b> Una web, donde la experiencia de usuario es satisfactoria, es sinónimo de una mayor interacción y de un 
+            mayor conocimiento de la marca y, por consiguiente, de una mejora en el branding.</a>
+        </li>
+        <li>
+            <a><b>Un factor clave para el SEO: </b> Si tu web no se encuentra optimizada para móviles (antes, incluso, que para desktop), posiblemente vayas 
+            a posicionar peor. Y es que, si no cuentas con un diseño web responsive, se va a perder una importante cantidad de tráfico.</a>
+        </li></ul>
+        <p>El diseño responsive es importante porque ofrece una experiencia de usuario perfecta que se traduce en una percepción más que positiva para la marca. 
+            Además, no tienen que desarrollar y ejecutar dos versiones del sitio web; así el diseñador podrá enfocarse en otro proyecto y aumentar la productividad. 
+            El mundo de la tecnología es de los que mayores avances, de hecho, siempre que ocurren cambios son a pasos agigantados, por lo que es recomendable mantenerse 
+            al tanto para se siga manteniendo y aumentando el número de visitas.<br>
+            No contar con un diseño responsive hoy en día es uno de los problemas que influye directamente en la web y por lo que se puede pagar muy caro a nivel de 
+            marketing o publicidad online. Precisamente, no contar con un diseño responsive puede ir ligado intrínsecamente al posicionamiento de la web a nivel SEO. 
+        </p>
+        <h3>Ventajas de un Diseño Responsive Web </h3>
+        <P>Aplicar un diseño web responsive  es un sinónimo de facilidad y podría generar muchas ventajas. En el siguiente apartado explica las mejores ventajas de 
+            contar con un diseño web responsive:
+            <ul>
+            <li>
+                <a>Brinda una URL única para que así se consiga una indexación común efectiva y un posicionamiento elevado en el mercado</a>
+            </li>
+            <li>
+                <a>Realiza un solo tipo de diseño para los tres tipos de dispositivos más utilizados actualmente, lo que ahorra costos y tiempo</a>
+            </li>
+            <li>
+                <a>Evita duplicar contenido en las tres versiones</a>
+            </li>
+            <li><a>Utiliza un diseño soportado por todos los navegadores</a></li></ul>
+            Para definir un diseño responsive se deben tomar en consideración ciertos aspectos, entre los que destaca que se debe procurar que los contenidos en bloques 
+            tengan una distribución lógica y legible en cualquiera de los dispositivos utilizados. No obstante, a  la hora de aplicar un diseño responsive se debe conocer 
+            que existen diferentes emuladores o programas para ofrecer una pre visualización de cómo lucirá el diseño web con un diseño responsive. 
+        </P>
+        <img src="rec/respon.gif">
+        <h3>¿Por qué aplicar un diseño responsive web el año 2023?</h3>
+        <p>Son muchos los motivos para aplicar un diseño responsive este 2023, y en el siguiente apartado se menciona los mejores para aplicar este tipo de diseño y 
+            conseguir los mejores resultados del mercado. 
+        <ul>
+            <li><b>Ahorra  tiempo y dinero:</b> Con un diseño responsive es totalmente efectivo el ahorro de los costos totales, y aunque el costo es alto, este no 
+            requiere de muchos cambios, así que este diseño es considerablemente mucho más económico y de menos tiempo. </li>
+        </ul>
+        <ul>
+            <li><b>Dispositivo escéptico:</b> Hoy en día existen tantas anchuras y longitudes de pantallas en dispositivos móviles que construir un sitio web estático 
+            es un error porque no se pueden mostrar todos los contenidos posibles. Así que un diseño responsive no importa cual dispositivo del que se esté mirando ya 
+            que el contenido se mostrará de la mejor manera.  </li>
+        </ul>
+        <ul>
+            <li><b>Experiencia de usuario</b> 
+                <ol type=i>
+                    <li >Proporcionar al usuario la mejor experiencia posible independientemente del dispositivo que se esté usando.
+                    <li>Que la exploración y navegación sea exactamente lo que se desea conseguir. Si el sitio web no cuenta con una buena visualización es muy probable 
+                        que el usuario abandone y se retire a la competencia.
+                </ol>
+        </li>
+        </ul>
+        </p>
+    <article class="article">
+        <h2>Conclusión, recomendaciones, trabajos futuros</h2>
+        <p>
+        En los últimos años la utilización de dispositivos móviles con navegadores incorporados ha tenido un gran auge, y con ello, se han incrementado 
+        también el número de internautas. Cabe decir que la cifra de usuarios de Internet fue de alrededor de 40.6 millones en el 2011, comparado con el 
+        2010 representa un aumento del 14%. De igual forma, el uso de teléfonos inteligentes para conectarse a
+        Internet se duplicó en 2011 con respecto al 2010.<br>
+        Para este creciente sector, el diseño web adaptativo no solo ofrece soluciones, sino que abre un panorama de investigación tecnológica de gran 
+        relevancia para los desarrolladores y para los sistemas portátiles. A medida que los estándares de HTML y CSS vayan evolucionando, darán origen 
+        a la creación de elementos reutilizables que minimicen el tiempo de desarrollo, para darcobertura a la variedad de navegadores y dispositivos 
+        actuales y futuros.<br>
+        En el contexto actual de la atomización de los dispositivos móviles y el acceso a la información, los portales web no sólo tienen
+        la ardua labor de mantenerse actualizados, sino que también deben adaptarse a las nuevas tecnologías, a nuevos formatos y a usuarios con
+        perfiles muy diferentes, desde los que se van integrando al mundo digital hasta los que han nacido bajo la revolución de los dispositivos móviles.
+        Los entornos de navegación cuyo potencial sólo puede ser aprovechado desde el dispositivo de uso para cual fueron pensados imponen una
+        restricción de uso que deja de tener sentido en un momento dominado por la multiplicidad de canales. No adaptarse a esta realidad parece
+        condenar a los sitios web a brindar una experiencia cada vez menos satisfactoria.<br>
+        Unificar los canales de información en una única web, una única URL, un solo espacio virtual que mantenga las mismas funcionalidades y
+        características que definen cada sitio web, adaptándose progresivamente a los cientos de modelos de dispositivos móviles que actualmente están
+        en el mercado, en una tendencia de consumo que llegó para quedarse y parece fortalecerse con el tiempo. Eso es el responsive web design. Ya
+        no es algo nuevo, desconocido o inalcanzable, está aquí, ahora y cada vez son más las páginas web que nacen, o renacen, bajo esta tendencia.
+        En definitiva, es cuestión de adaptarse a los nuevos patrones de consumo y responder a las necesidades de las personas, ofreciendo sitios web
+        que hagan su experiencia de usuario igual de satisfactoria indistintamente del dispositivo desde el cual naveguen.<br>
+        El trabajo desarrollado permite dar solución a la problemática de la visualización del sitio Web institucional en la gama de dispositivos 
+        móviles con la utilización del Responsive Web Design, a partir del uso del framework Symfony integrado con Bootstrap. A la vez, la 
+        aplicación del patrón Modelo-Vista-Controlador facilita la actualización y mantenimiento del sitio de una forma sencilla y en un reducido 
+        espacio de tiempo. Consecuentemente, la implantación de este nuevo diseño permite mayor promoción de la actividad que realiza el Centro en 
+        particular los servicios médicos, la comercialización de productos y las investigaciones científicas. De esta manera, el diseño concebido 
+        crea las bases para adicionar nuevos servicios de valor agregado como el Comercio Electrónico.    
+        </p>
+    </article>
+
+    <article class="article">
+        <h2>Cibergrafía </h2>
+    <ul>
+        <li>
+            <a>http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1684-18592018000100003#:~:text=El%20Responsive%20Web%20Design%20(RWD, visualizaci%C3%B3n%20adecuada%20en%20cada%20dispositivo.</a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            https://www.revista.unam.mx/vol.14/num1/art07/art07.pdf
+        </li>
+    </ul>
+    <ul>
+        <li>
+            https://www.axiomacero.com/blog/la-importancia-de-un-diseno-responsive-en-tu-web/
+        </li>
+    </ul>
+    </article>
+</main>
+    <footer>
+        Autor: Rodrigo Santos Santiago
+    </footer>
+</div>
+</body>
+</html>
